@@ -66,8 +66,6 @@
 		C31385572807600600B23288 /* DisneyAPIApp */ = {
 			isa = PBXGroup;
 			children = (
-				C31385582807600600B23288 /* AppDelegate.swift */,
-				C313855A2807600600B23288 /* SceneDelegate.swift */,
 				C3138578280765EC00B23288 /* Views */,
 				C3138577280765E300B23288 /* Model */,
 				C3138576280765CF00B23288 /* ViewControllers */,
@@ -76,6 +74,8 @@
 				C31385632807600600B23288 /* LaunchScreen.storyboard */,
 				C3138574280765BC00B23288 /* Resources */,
 				C31385662807600600B23288 /* Info.plist */,
+				C31385582807600600B23288 /* AppDelegate.swift */,
+				C313855A2807600600B23288 /* SceneDelegate.swift */,
 			);
 			path = DisneyAPIApp;
 			sourceTree = "<group>";

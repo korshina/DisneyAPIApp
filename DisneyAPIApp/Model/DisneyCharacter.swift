@@ -24,10 +24,10 @@ struct DisneyCharacter: Decodable {
     
     var description: String {
         """
-        Films: \(films)
-        TV Shows: \(tvShows)
-        Video Games: \(videoGames)
-        Park Attractions: \(parkAttractions)
+        Films: \(films.isEmpty ? "-" : films.joined(separator: ","))
+        TV Shows: \(tvShows.isEmpty ? "-" : tvShows.joined(separator: ","))
+        Video Games: \(videoGames.isEmpty ? "-" : videoGames.joined(separator: ","))
+        Park Attractions: \(parkAttractions.isEmpty ? "-" : parkAttractions.joined(separator: ","))
         """
     }
     
